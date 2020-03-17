@@ -23,7 +23,7 @@ body
     margin: 200px auto;
     padding: 15.5px;
 
-    background-color: #668cff; 
+    background-color: #b3c6ff; 
     box-shadow: 0px 4px #002699, 0px 10px 15px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
 
@@ -48,13 +48,74 @@ span
 
 }
 
+.clear
+{
+    background-color: #ff668c;
+    box-shadow: 0px 4px #b3002d;
+
+    color: white;
+}
+
+.operation
+{
+    background-color: #ffe6ff;
+}
+
+.equals
+{
+    background-color: #80ff80;
+    box-shadow: 0px 4px#267326;
+}
+
 .screen
 {
     width: 213px;
-    height: 36px;
+    height: 40px;
     margin: 3.75px;
 
-    background-color: #2e5498;
+    background-color: #3562b1;
     box-shadow: inset 0px 4px #626a84;
     border-radius: 3px;
+}
+
+.clear:hover
+{
+    background-color: #ff1a53;
+    box-shadow: 0px 4px #66001a;
+
+}
+
+.equals:hover
+{
+    background-color: #33ff33;
+    box-shadow: 0px 4px#133913;
+}
+
+span:hover
+{
+    background-color:#944dff;
+    box-shadow: 0px 4px#4700b3;
+
+    color: #ffffff;
+}
+
+span:active
+{
+    position: relative;
+    bottom: -4px;
+    box-shadow: 0px 0px;
+}
+
+.clear:active
+{
+    position: relative;
+    bottom: -4px;
+    box-shadow: 0px 0px;
+}
+
+.equals:active
+{
+    position: relative;
+    bottom: -4px;
+    box-shadow: 0px 0px;
 }
